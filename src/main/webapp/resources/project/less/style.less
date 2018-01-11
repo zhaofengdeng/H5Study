@@ -1,0 +1,35 @@
+@color-primary: #5B83AD;
+//可定义变量
+body{
+	background-color:@color-primary;
+}
+.div_test{
+	width:50%;
+	height:50px;
+}
+
+//------------------------可使用css，并写自己单独样式
+.div_test_1{
+	background-color:#fff;
+	.div_test
+}
+
+.div_test_2{
+	background-color:black;
+	.div_test
+}
+//------------------------可引用css，并写样式
+
+
+//----------------------------嵌套规则
+
+.div_test_3{
+	background-color:#fff;
+	.div_test_4{
+		color:#ff0000;
+	}
+	.div_test_5{
+		color:#00ff00;
+	}
+}
+//----------------------------嵌套规则
