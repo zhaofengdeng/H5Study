@@ -53,7 +53,7 @@ H5
 	<a href="${basePath}?page=html5_css3/6">百分比布局2</a>
 	</li>
 	<li>
-	<a href="${basePath}?page=html5_css3/7">section标签</a>
+	<a href="${basePath}?page=html5_css3/7">section标签(div,section,article的区别和使用?)</a>
 	</li>
 	<li>
 	<a href="${basePath}?page=html5_css3/8">aside标签</a>
@@ -114,8 +114,11 @@ css3
 	<li>
 	<a href="${basePath}?page=html5_css3/css_10">表单</a>
 	</li>
+	<li>
+	<a href="${basePath}?page=html5_css3/css_11">动画(加深学习)</a>
+	</li>
 </ul>
-2.#功能
-3.标签存储数据
+
+3.存储数据(下一个话题)
 
 </@c.html>
