@@ -13,6 +13,6 @@
 			<script src="${basePath}/resources/project/less/less.js"></script>
 </head>
 <body style="width:100%;height:100%;">
-	
+	<button class="zfd-button">aa</button>
 </body>
 </html>

@@ -1,0 +1,32 @@
+/*按钮主题颜色*/
+@button-primary-color: #5B83AD;
+/*按钮主题悬浮颜色*/
+@button-primary-hover-color: darken(@button-primary-color, 10%);
+/*按钮点击颜色*/
+@button-primary-active-color: darken(@button-primary-color, 20%);
+/*按钮主题文字颜色*/
+@button-primary-font-color: #fff;
+@button-width:100px;
+@button-height:50px;
+.zfd-button{
+	background-color:@button-primary-color;
+	color:@button-primary-font-color;
+	border-radius:5px;
+	cursor:pointer;
+	width:@button-width;
+	height:@button-height;
+	border:0px;
+	.button_shadow
+}
+.zfd-button:hover{
+	background-color:@button-primary-hover-color;
+	width:@button-width*1.2;
+	height:@button-height*1.2;
+}
+.zfd-button:active{
+	background-color:@button-primary-active-color;
+}
+.button_shadow
+{
+	box-shadow: 5px 5px 5px #999;
+}
