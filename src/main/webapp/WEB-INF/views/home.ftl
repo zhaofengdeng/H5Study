@@ -15,6 +15,7 @@
 <button type="button" class="btn btn-primary btn-lg btn-block" onclick="lessStudyButtonClick()">LESS学习</button>
 <button type="button" class="btn btn-primary btn-lg btn-block" onclick="lessButtonStudyButtonClick()">LESS插件button</button>
 <button type="button" class="btn btn-primary btn-lg btn-block" onclick="h5StudyButtonClick()">H5+CSS3学习</button>
+<button type="button" class="btn btn-primary btn-lg btn-block" onclick="gaoDeMapStudyButtonClick()">高德地图</button>
 <script>
 	function lessStudyButtonClick(){
 		window.location.href="${basePath}?page=less/home";
@@ -24,6 +25,9 @@
 	}
 	function h5StudyButtonClick(){
 		window.location.href="${basePath}?page=html5_css3/home";
+	}
+	function gaoDeMapStudyButtonClick(){
+		window.location.href="${basePath}?page=map/gao_de/home";
 	}
 </script>
 </body>
